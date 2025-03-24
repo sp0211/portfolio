@@ -1,0 +1,10 @@
+body {
+    background-origin: border-box;
+    background-image: url("images/PortfolioBG.png");
+}
+
+#title-card {
+    width: 50%;
+    background: aquamarine;
+    padding: 10px;
+}
