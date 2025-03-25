@@ -4,7 +4,143 @@ body {
 }
 
 #title-card {
-    width: 50%;
-    background: aquamarine;
+    margin: auto;
+    width: 90%;
+    height: 20%;
+    
+    background-color: rgba(31, 31, 58, 0.9);
     padding: 10px;
+
+    border: 10px solid transparent;
+    border-image: url(images/border.png) 5 round;
+
+    text-align: center;
+    font-family: pixy;
+    color: aliceblue;
+}
+
+#navbar {
+    margin-top: 15px;
+    position: sticky;
+    padding: 15px;
+
+    background-color: rgba(31, 31, 58, 0.75);
+}
+
+/*The clearfix hack required to make the nav bar actually take up a block, since the buttons are all floating*/
+#navbar::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.navbtn {
+    float: left;
+
+    height: 40px;
+    width: max-content;
+    line-height: 40px;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+
+
+    font-family: pixy;
+    font-size: 1.25vmax;
+    text-align: center;
+}
+
+.navbtn.active {
+    float: left;
+
+    height: 40px;
+    width: max-content;
+    line-height: 40px;
+
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(0, 180, 240);
+
+
+    font-family: pixy;
+    font-size: 1.25vmax;
+    text-align: center;
+}
+
+.navbtn:hover {
+    background-color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+
+    color: aliceblue;
+}
+
+.langbtn {
+    float: right;
+
+    height: 40px;
+    width: max-content;
+    line-height: 40px;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+
+    font-family: pixy;
+    font-size: 1.25vmax;
+    text-align: center;
+}
+
+.langbtn.active {
+    float: right;
+
+    height: 40px;
+    width: max-content;
+    line-height: 40px;
+
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    background-color: rgb(0, 180, 240);
+
+    font-family: pixy;
+    font-size: 1.25vmax;
+    text-align: center;
+}
+
+.langbtn:hover {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: black;
+
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: pixy;
+    src: url(fonts/pixy.regular.ttf);
+}
+
+@font-face{
+    font-family: orbitron;
+    font-weight: normal;
+    src: url(fonts/orbitron.light.ttf);
+}
+
+@font-face {
+    font-family: orbitron;
+    font-weight: bold;
+    src: url(fonts/orbitron.bold.ttf);
+}
+
+@font-face{
+    font-family: fc_quantum;
+    src: url(fonts/FC\ Quantum.ttf);
 }

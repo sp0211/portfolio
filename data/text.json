@@ -1,0 +1,15 @@
+{
+    "th" : {
+        "font": "fc_quantum",
+        "bio-header": "\"ภูมิ\" คือใคร?",
+        "bio-body": 
+            "ถ้าหากมีใครถามว่า \"มีส่วนไหนของนิสัยผมบ้างไหมที่ไม่เปลี่ยนไป ระหว่างเวลาทำงานกับเวลาเล่นเกม?\" ผมคงต้องตอบว่า \"ความอยากรู้ อยากลองที่ไม่มีที่สิ้นสุด เพื่อที่จะเก่งพอที่จะช่วยทีมได้ ไม่ใช่เพียงแค่เอาตัวรอด\"<br><br>ผมเห็นว่าคนที่เรียกว่าเป็นคนที่เล่นเกม <i>Monster Hunter</i> เก่งได้ จะต้องเป็นคนที่ดูแลเพื่อนร่วมทีมไปด้วยตีมอนเสตอร์ไปด้วยได้ฉันใด ฉันนั้นแล้วคนที่จะถือได้ว่าเป็นโปรแกรมเมอร์ที่ดีจะต้องทำได้มากกว่าแค่เขียนโค้ดที่แค่พอใช้งานได้ แต่ต้องทำให้ productivity ของทีมเพิ่มขึ้นได้อีกด้วย<br><br>เพราะความคิดเช่นนี้ผมจึงได้เป็นผมอย่างที่เป็นตอนนี้ ไม่ได้ฝึกเขียนโค้ดแต่เพียงอย่างเดียว แต่ทำความรู้จักกับหน้าที่หลากหลาย เพื่อให้ได้เข้าใจว่า ต้องทำเช่นไรจึงจะทำประโยชน์ให้กับทีมได้ถึงที่สุด"
+    },
+
+    "en" : {
+        "font": "orbitron",
+        "bio-header": "Who is 'Poom?'",
+        "bio-body": 
+            "If there's one thing in common between my work-mode self and my play-mode self, it's the drive to maximize contributions to the team, expressed as a never-ending quest to learn, adapt, and cooperate.<br><br>Much like how a good <i>Monster Hunter</i> team player keeps watch over their teammates and the target simultaneously, I believe that being a good game programmer's responsibility isn't only to make sure that their code works -- but also to make sure that they can boost the team's productivity.<br><br>From this belief stems what I believe to be what makes me 'me' -- not only do I put care into honing my expertise of programming, but I spend time to familiarize myself with other disciplines as well, so that I can assist my teammates, and write code in a way doesn't only just work, but amplifies the team's productivity as well."
+    }
+}

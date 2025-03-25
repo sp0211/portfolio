@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sirapat "Poom" P.'s Site</title>
+    <title>Sirapat "Poom" P.</title>
     <link rel="stylesheet" href="./style.css"></style>
+
+    <script type="module" src="src/main.js"></script>
 </head>
 <body>
     <div id="title-card">
-        <h1 id="Name">Sirapat "Poom" Phunjamaneechot</h1>
-        <h3 id="Subtitle">Technical Artist Extraordinaire</h3>
+        <h2 id="Name" style="font-size: 2vmax;">Sirapat "Poom" Phunjamaneechot</h2>
+        <h3 id="Subtitle" style="font-size: 1.75vmax;">Rising Code-meister</h3>
+    </div>
+    <div id="navbar">
+        <button id="bioButton" class="navbtn" onclick="window.setNav(event, 'bio')">About me</button>
+        <button id="workButton" class="navbtn" onclick="window.setNav(event, 'work')">Highlights</button>
+        
+        <button id="thButton" class="langbtn" onclick="window.setLanguage(event, 'th')"><img src="images/ThaiFlag.svg" width="38px" height="20px"></img> TH</button>
+        <button id="enButton" class="langbtn" onclick="window.setLanguage(event, 'en')"><img src="images/USFlag.svg" width="38px" height="20px"></img> EN</button>
+    </div>
+
+    <div id="display-content" style="background-color: rgba(255, 255, 255, 0.6); border: 2px solid black;">
+        <div id="bio">
+            <h3 id="bio-header" class="translatable" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6); border: 2px solid black; font-size: 1.75vmax;"></h3>
+            
+            <p id="bio-body" class="translatable" style="margin: 20px; background-color: rgba(255, 255, 255, 0.6); border: 2px solid black; font-size: 1.35vmax;"></p>
+            <img src="images/IMG_0205.jpg" style="display: block; width: 10vmax; margin: auto; margin-top: 10px; margin-bottom: 10px;">
+        </div>
     </div>
 </body>
 </html>
