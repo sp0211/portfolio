@@ -1,4 +1,4 @@
-import textData from "/text.json" with {"type" : "json"};
+import textData from "../data/text.json" with {"type" : "json"};
 
 
 function setLanguage(event, val) {
