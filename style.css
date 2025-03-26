@@ -26,6 +26,7 @@ iframe {
 #navbar {
     margin-top: 15px;
     position: sticky;
+    top: 0;
     padding: 15px;
 
     background-color: rgba(31, 31, 58, 0.75);
